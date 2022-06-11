@@ -20,7 +20,7 @@ export default function HomeScreen() {
         {
             id: 3,
             title: "Pograming",
-            img: "https://www.goodcore.co.uk/blog/wp-content/webp-express/webp-images/uploads/2019/08/coding-vs-programming-2.jpg.webp",
+            img: "https://www.economist.com/sites/default/files/images/2015/09/blogs/economist-explains/code2.png",
             link: "/quiz/pograming"
         },
         {
