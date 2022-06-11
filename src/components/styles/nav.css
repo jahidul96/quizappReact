@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background: linear-gradient(30deg, rgb(241, 10, 10), #2d4668);
+    padding: 0 30px;
+    color: #fff;
+}
+
+.navLeftDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personIcon {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.navLeftDiv>p {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+@media(max-width:600px) {
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .personIcon {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .navLeftDiv>p {
+        font-size: 16px;
+        font-weight: 600;
+
+    }
+}
