@@ -13,6 +13,7 @@
     background: linear-gradient(60deg, #333, #2d4668);
     border-radius: 10px;
     color: #fff;
+    padding: 1px;
 }
 
 .quizDemocontentWrapper>h3 {
@@ -70,15 +71,24 @@
     font-size: 16px;
 }
 
+@media(max-width: 550px) {
+    .quizDemocontentWrapper {
+        margin: 30px auto;
+
+    }
+}
+
 
 
 @media(max-width: 450px) {
+
+    .quizDemohome {
+        height: 95vh;
+    }
+
     .quizDemocontentWrapper {
         width: 300px;
         height: 480px;
-        background: linear-gradient(60deg, #333, #2d4668);
-        border-radius: 10px;
-        color: #fff;
     }
 
     .questionTextStyle {
