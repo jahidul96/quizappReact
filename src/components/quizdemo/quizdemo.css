@@ -1,6 +1,6 @@
 .quizDemohome {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background: linear-gradient(#6dd0b4, #BDF2D5);
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@
 
 @media(max-width:550px) {
     .quizDemohome {
-        height: 65vh;
+        height: 75vh;
     }
 }
 
