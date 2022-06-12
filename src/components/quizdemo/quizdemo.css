@@ -90,7 +90,10 @@
         width: 80%;
         margin-left: 30px;
     }
+}
 
-
-
+@media(max-width:360px) {
+    .quizDemohome {
+        height: 90vh;
+    }
 }
